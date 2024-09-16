@@ -9,10 +9,9 @@ function menuanimadoabrir(){
     }
 menuanimadoabrir()
 function menuanimadofechar(){
-        var menu=document.querySelector('div.dv-menu')
-        img2h.addEventListener('click',()=>{
-        menu.classList.add('animaF')
-        menuanimadoabrir()
-    })
+    var menu=document.querySelector('div.dv-menu')
+    img2h.addEventListener('click',()=>{
+    menu.classList.add('animaF')
+    menuanimadoabrir()
+})
 }
-al
