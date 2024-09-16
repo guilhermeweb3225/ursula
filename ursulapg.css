@@ -148,6 +148,7 @@ div#dv-tema>div{
     position: relative;
     top: 0%;
     left: 0%;
+    cursor: pointer;
 }
 
 .dv-temaW{
@@ -199,12 +200,6 @@ div#dv-tema>div{
         left: 100%; transform: translate(-100%);background-color: rgb(0, 0, 0);
     }
 }
-header>div>div>p{
-    font-size: 0px;
-    position: relative;
-    left: 60px;
-    top: -50px;
-}
 main{
     color: white;
     border: none;
@@ -212,6 +207,9 @@ main{
     margin: auto;
     position: relative;
     top: 200px;
+}
+main>div>p{
+    cursor: default;
 }
 main>div.dvs-c{
     width: 150px;
