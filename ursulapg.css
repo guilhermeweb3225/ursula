@@ -89,7 +89,7 @@ header>div>div{
     height: 40px;
     position: absolute;
     left: 94%;
-    top: 20px;
+    top: 50px;
     border-radius: 5px 0px 20px 5px;
     transform: translate(-100%);
     margin:auto 0;
@@ -103,7 +103,7 @@ header>div>div{
     height: 0px;
     position: absolute;
     left: 94%;
-    top: 20px;
+    top: 50px;
     transform: translate(-100%);
     margin:auto 0;
     border:none;
@@ -111,11 +111,100 @@ header>div>div{
     animation: munuanimaf 500ms;
 }
 header>div>div>img{
-        position: absolute;
-        left: 100%;
-        top: -20px;
+    position: absolute;
+    left: 100%;
+    top:-20px;
         cursor: pointer;
     }
+div#dv-tema{
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    height: 0px;
+    width: 0px;
+    background-color: #700045;
+    border-radius: 50px;
+}
+.ef-temaA{
+    width: 50px;
+    height: 20px;
+    animation: dAtema 500ms ;
+    -webkit-animation: dAtema 500ms ;
+}
+.ef-temaF{
+    width: 0px;
+    height: 0px;
+    animation: dFtema 500ms ;
+    -webkit-animation: dFtema 500ms ;
+}
+
+div#dv-tema>div{
+    width: 0px;
+    height: 0px;
+    background: #000000;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #161616;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+.dv-temaW{
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #818181;
+    position: relative;
+    top: 0%;
+    left: 100%;
+    animation: dvtemaW 200ms;
+}
+.dv-temaB{
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #818181;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-100%);
+    animation: dvtemaB 200ms;
+}
+.dv-temaF{
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #181818;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-100%);
+    animation: dvtemaf 500ms;
+    -webkit-animation: dvtemaf 500ms;
+}
+@keyframes dvtemaf{
+    0%{
+        position: relative;
+        top: 0%;
+        left: 100%; transform: translate(-100%);background-color: white;
+    }
+    100%{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        left: 100%; transform: translate(-100%);background-color: rgb(0, 0, 0);
+    }
+}
+header>div>div>p{
+    font-size: 0px;
+    position: relative;
+    left: 60px;
+    top: -50px;
+}
 main{
     color: white;
     border: none;
@@ -252,4 +341,35 @@ footer>h2>strong{
     0%{opacity: 0;}
     50%{opacity: 0;}
     100%{opacity: 1;}
+}
+@keyframes dAtema{
+    0%{ width: 0px;height: 0px;}
+    50%{ width: 50px;height: 0px;}
+    100%{ width: 50px;height: 20px;}
+}
+@keyframes dFtema{
+    0%{ width: 50px;height: 20px;}
+    50%{ width: 50px;height: 0px;}
+    100%{ width: 0px;height: 0px;}
+}
+@keyframes dvtemaW{
+    0%{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%);
+}
+    100%{ position: relative;
+        top: 0%;
+        left: 100%; transform: translate(-100%);background-color: white;}
+}
+@keyframes dvtemaB{
+    0%{position: relative;
+        top: 0%;
+        left: 100%; transform: translate(-100%);background-color: white;
+}
+    100%{position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%); }
 }
