@@ -15,4 +15,4 @@ function menuanimadofechar(){
         menuanimadoabrir()
     })
 }
-
+al
