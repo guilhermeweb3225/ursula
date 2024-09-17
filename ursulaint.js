@@ -1,7 +1,6 @@
 var img2h=document.getElementById('img2h')
 var bt_tema=document.getElementById('dv-tema')
 var bt_tema_circulo=document.getElementById('dv-tema-circulo')
-
 //anicializaçao do menu
 function menuanimadoabrir(){
     var menu=document.querySelector('div.dv-menu')
@@ -40,6 +39,9 @@ function claro(){
         bt_tema_circulo.style.transform='translate(-100%)'
         bt_tema_circulo.style.background='white'
         bt_tema.style.background='#ff0000'
+        document.body.classList.add('segundotema')
+        document.body.style.background='#b2dfdb'
+        img2h.setAttribute('src','menu-tema2.png')
         escuro()
     })
 }
@@ -51,6 +53,8 @@ claro()
         bt_tema_circulo.style.transform='translate(0%)'
         bt_tema_circulo.style.background='black'
         bt_tema.style.background='#700045'
+        location.reload()
         claro()
     })
 }
+//style do site(tema2)
