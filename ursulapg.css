@@ -359,18 +359,18 @@ footer>h2>strong{
         background-color: var(--cor9);
     }
     main > div.dvs-c:hover {
-        color: var(--cor6);
+        color: var(--cor4);
     }
     main > div.dvs-c > a > img {
         box-shadow: 0 0 12px var(--cor3);
         border: 2px solid #4db6ac;
     }
     main > div.dvs-c > a > img:hover {
-        box-shadow: 0 0 12px var(--cor5);
+        box-shadow: 0 0 12px var(--cor4);
         border: 2px solid #4db6ac;
-        width: 16vw;
-
-    }
+        width: 9vw;
+        animation: contrairaniama2 250ms;
+}
     main > div.dvs-c > p {
         font-family: var(--font1);
     }
@@ -509,22 +509,22 @@ footer>h2>strong{
 100% { box-shadow: 0 1px 20px var(--cor4); }
 }
 
-@keyframes contrairanima2 {
+@keyframes contrairaniama2 {
 0% {
     width: 10vw;
     height: 10vw;
     margin: 0px 0px;
-    box-shadow: 0 0 12px var(--cor7);
-    border: 2px solid var(--cor7);
+    box-shadow: 0 0 12px var(--cor3);
+    border: 2px solid var(--cor4);
     border-radius: 10px;
 }
 100% {
     width: 9vw;
     height: 9vw;
-    margin: 3px 3px;
-    box-shadow: 0 0 12px var(--cor10);
-    border-radius: 40px;
-    border: 2px solid var(--cor10);
+    margin: 0px 7px;
+    box-shadow: 0 0 12px var(--cor4);
+    border-radius: 20px;
+    border: 2px solid var(--cor4);
 }
 }
 
