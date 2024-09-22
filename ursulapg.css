@@ -208,8 +208,8 @@ div#dv-tema>div{
 main{
     color: white;
     border: none;
-    width: 80%;
-    margin: auto;
+    width: 80vw;
+    margin: auto 10vw auto 15vw;
     position: relative;
     top: 200px;
 }
@@ -217,8 +217,8 @@ main>div>p{
     cursor: default;
 }
 main>div.dvs-c{
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     background-color: #000B19;
     border-radius: 10px;
     display: inline-block;
@@ -229,19 +229,20 @@ main>div.dvs-c:hover{
     color: #d60084;
 }
 main>div.dvs-c>a>img{
-    width: 100%;
+    width: 10vw;
+    height: 10vw;
     border-radius: 7px;
     box-shadow: 0 0 12px #700045;
     border: 2px solid #700045;
 }
 main>div.dvs-c>a>img:hover{
-    width: 140px;
-    height: 140px;
-    margin: 3px 3px;
+    width: 9vw;
+    height: 9vw;
+    margin: 0px 7px;
     box-shadow: 0 0 12px #ff009d;
     border: 2px solid #ff009d;
-    border-radius: 40px;
-    animation: contrairanima 300ms;
+    border-radius: 20px;
+    animation: contrairanima 200ms;
 }
 main>div.dvs-c>p{
     font-family: var(--font1);
@@ -367,6 +368,8 @@ footer>h2>strong{
     main > div.dvs-c > a > img:hover {
         box-shadow: 0 0 12px var(--cor5);
         border: 2px solid #4db6ac;
+        width: 16vw;
+
     }
     main > div.dvs-c > p {
         font-family: var(--font1);
@@ -400,19 +403,19 @@ footer>h2>strong{
 }
 @keyframes contrairanima {
     0%{
-    width: 100%;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     margin: 0px 0px;
     box-shadow: 0 0 12px #700045;
     border: 2px solid #700045;
     border-radius: 10px;
 }
     100%{
-        width: 140px;
-        height: 140px;
-        margin: 3px 3px;
-        box-shadow: 0 0 12px #ff009d;
-    border-radius: 40px;
+    width: 9vw;
+    height: 9vw;
+    margin: 0px 7px;
+    box-shadow: 0 0 12px #ff009d;
+    border-radius: 20px;
     border: 2px solid #ff009d;
 }
 }
@@ -508,16 +511,16 @@ footer>h2>strong{
 
 @keyframes contrairanima2 {
 0% {
-    width: 100%;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     margin: 0px 0px;
     box-shadow: 0 0 12px var(--cor7);
     border: 2px solid var(--cor7);
     border-radius: 10px;
 }
 100% {
-    width: 140px;
-    height: 140px;
+    width: 9vw;
+    height: 9vw;
     margin: 3px 3px;
     box-shadow: 0 0 12px var(--cor10);
     border-radius: 40px;
