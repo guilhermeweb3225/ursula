@@ -215,6 +215,7 @@ main{
 }
 main>div>p{
     cursor: default;
+    font-size: 1.2vw;
 }
 main>div.dvs-c{
     width: 10vw;

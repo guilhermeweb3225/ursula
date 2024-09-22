@@ -1,6 +1,7 @@
 var img2h=document.getElementById('img2h')
 var bt_tema=document.getElementById('dv-tema')
 var bt_tema_circulo=document.getElementById('dv-tema-circulo')
+var contato=document.getElementById('ctt')
 //anicializaçao do menu
 function menuanimadoabrir(){
     var menu=document.querySelector('div.dv-menu')
@@ -57,4 +58,3 @@ claro()
         claro()
     })
 }
-//style do site(tema2)
