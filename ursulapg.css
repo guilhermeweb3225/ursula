@@ -603,3 +603,24 @@ footer>h2>strong{
     transform: translate(0%);
 }
 }
+@media screen and (max-width: 1000px) {
+    main{
+        width: 90% !important;
+        margin: auto auto auto 10% !important;
+    }
+    div.dvs-c {
+        width: 100px !important;
+        height:100px !important;
+        margin: auto !important;
+    }
+    div.dvs-c>a>img{
+        animation: none !important;
+        margin: 0  !important;
+        width: 90px !important;
+        height: 90px !important;
+        -webkit-animation: none !important;
+}
+header>div>nav>a#ctt{
+    font-size: 3.3vh !important;
+}
+}
