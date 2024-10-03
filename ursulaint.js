@@ -58,3 +58,14 @@ claro()
         claro()
     })
 }
+window.revelar=ScrollReveal({reset:true})
+revelar.reveal('.dvs-revelar',{
+    duration:1000,
+    origin:'bottom',
+    distance:'90px'
+})
+revelar.reveal('.dvs-revelar2',{
+    duration:1500,
+    origin:'bottom',
+    distance:'90px'
+})

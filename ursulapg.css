@@ -366,8 +366,8 @@ footer>h2>strong{
     main {
         color: var(--cor7);
     }
-    main > div.dvs-c {
-        background-color: var(--cor9);
+    div.dvs-revelar,.dvs-revelar2{
+        visibility: hidden;
     }
     main > div.dvs-c:hover {
         color: var(--cor4);
@@ -630,5 +630,11 @@ footer>h2>strong{
 }
 header>div>nav>a#ctt{
     font-size: 3.3vh !important;
+}
+header>div>div>img{
+    width: 30px;
+}
+main>div>p{
+    font-size: 18px !important
 }
 }
