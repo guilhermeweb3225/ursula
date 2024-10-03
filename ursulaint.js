@@ -65,7 +65,7 @@ revelar.reveal('.dvs-revelar',{
     distance:'90px'
 })
 revelar.reveal('.dvs-revelar2',{
-    duration:1500,
+    duration:1000,
     origin:'bottom',
     distance:'90px'
 })
