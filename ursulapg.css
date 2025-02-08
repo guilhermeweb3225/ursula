@@ -13,6 +13,7 @@ body{
 *{
     margin: 0;
     padding: 0;
+    transition: 250ms;
 }
 :root{
     --cor1:#000B19;
@@ -64,7 +65,7 @@ header>div>nav>a{
     font-family: var(--font1);
 }
 header>div>nav>a:hover{
-    border-bottom: 3px solid #d60084;
+    border-bottom: 3px solid #cf00d6;
     border-radius: 2px;
     color: #700045;
     animation: fontI 110ms;
@@ -120,7 +121,7 @@ header>div>div>img{
         left: 100%;
         transform: translate(-100%);
         animation: fundoanima 1.5s;
-        background-color: transparent;
+        background-color:var(--cor2);
     }
     div#dv-principal>img{
         filter: drop-shadow(0 0 5px #700bf5);
@@ -132,7 +133,8 @@ header>div>div>img{
         height: 0px;
         z-index: 300;
         animation: logoanima 1.5s;
-    }
+        -webkit-filter: drop-shadow(0 0 5px #700bf5);
+}
     
 div#dv-tema{
     position: relative;

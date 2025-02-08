@@ -42,7 +42,7 @@ function claro(){
         bt_tema.style.background='#ff0000'
         document.body.classList.add('segundotema')
         document.body.style.background='#b2dfdb'
-        img2h.setAttribute('src','menu-tema2.png')
+        img2h.setAttribute('src','/imagens/menu-tema2.png')
         escuro()
     })
 }
